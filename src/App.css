@@ -1,0 +1,70 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: cornflowerblue;
+}
+
+.container{
+  width: 300px;
+  height: 350px;
+  background-color: white;
+  padding-top: 10px;
+  /* margin-left: 20px; */
+}
+.login-signUp{
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: center;
+}
+ button{
+    width: 130px;
+    background-color: rgb(216, 210, 210);
+    color: white;
+}
+
+.active{
+  
+  background-color: blue;
+}
+ h2{
+  margin-left: 20px;
+}
+.login-input{
+  width: 250px;
+  height: 100px;
+  /* background-color: aqua; */
+  margin-left: 20px;
+}
+input{
+  width: 220px;
+  height: 30px;
+  padding-left: 20px;
+  margin-top: 10px;
+  border: 1 ;
+}
+.login-input .forgotPassword{
+    position: relative;
+    left: 130px;
+}
+.login-input button{
+  position: relative;
+  top: 10px;
+  width: 250px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: blue;
+  color: white;
+}
+p{
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: center;
+}
+.signupDiv{
+  /* background-color: aqua; */
+  margin-left: 20px;
+}
+.signupDiv button{
+  width: 250px;
+  background-color: blue;
+}
